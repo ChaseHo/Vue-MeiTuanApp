@@ -1,0 +1,447 @@
+
+body {
+    margin: 0
+}
+
+a:active, a:hover {
+    outline: 0
+}
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+
+
+
+td, th {
+    padding: 0
+}
+
+img {
+    vertical-align: middle;
+    border: 0
+}
+
+
+
+html {
+    font-size: 50px;
+    -webkit-tap-highlight-color: transparent;
+    height: 100%;
+    min-width: 320px;
+    overflow-x: hidden
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: .28em;
+    line-height: 1;
+    color: #333;
+    background-color: #f0efed
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: 500;
+    line-height: 1.1
+}
+
+h1 small, h1 .small, h2 small, h2 .small, h3 small, h3 .small, h4 small, h4 .small, h5 small, h5 .small, h6 small, h6 .small, .h1 small, .h1 .small, .h2 small, .h2 .small, .h3 small, .h3 .small, .h4 small, .h4 .small, .h5 small, .h5 .small, .h6 small, .h6 .small {
+    font-weight: 400;
+    line-height: 1
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: .28rem;
+    margin-bottom: .14rem
+}
+
+h1 small, h1 .small, .h1 small, .h1 .small, h2 small, h2 .small, .h2 small, .h2 .small, h3 small, h3 .small, .h3 small, .h3 .small {
+    font-size: 65%
+}
+
+h4, .h4, h5, .h5, h6, .h6 {
+    margin-top: .14rem;
+    margin-bottom: .14rem
+}
+
+h4 small, h4 .small, .h4 small, .h4 .small, h5 small, h5 .small, .h5 small, .h5 .small, h6 small, h6 .small, .h6 small, .h6 .small {
+    font-size: 75%
+}
+
+h1, .h1 {
+    font-size: .364rem
+}
+
+h2, .h2 {
+    font-size: .2996rem
+}
+
+h3, .h3 {
+    font-size: .238rem
+}
+
+h4, .h4 {
+    font-size: .175rem
+}
+
+h5, .h5 {
+    font-size: .14rem
+}
+
+h6, .h6 {
+    font-size: .119rem
+}
+
+h6 {
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit
+}
+
+a {
+    color: #06c1ae;
+    text-decoration: none;
+    outline: 0
+}
+
+a:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none
+}
+
+weak, small {
+    color: #666
+}
+
+.page {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    overflow: hidden;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    -ms-box-align: center;
+    -ms-flex-pack: justify
+}
+
+.page.next {
+    -webkit-transform: translateX(105%);
+    -ms-transform: translateX(105%)
+}
+
+.page.prev {
+    -webkit-transform: translateX(-105%);
+    -ms-transform: translateX(-105%)
+}
+
+.page.next2 {
+    -webkit-transform: translateX(210%);
+    -ms-transform: translateX(210%)
+}
+
+.page.prev2 {
+    -webkit-transform: translateX(-210%);
+    -ms-transform: translateX(-210%)
+}
+
+.page.current {
+    z-index: 2
+}
+
+
+button:focus {
+    outline: 0
+}
+
+
+
+
+
+
+dl.list {
+    border-top: 1px solid #DDD8CE;
+    border-bottom: 1px solid #DDD8CE;
+    margin-top: .2rem;
+    margin-bottom: 0;
+    background-color: #fff
+}
+
+dl.list dt, dl.list dd {
+    margin: 0;
+    border-bottom: 1px solid #DDD8CE;
+    overflow: hidden;
+    font-size: inherit;
+    font-weight: 400;
+    position: relative
+}
+
+dl.list dt:last-child, dl.list dd:last-of-type {
+    border-bottom: 0
+}
+
+dl.list .dd-padding, dl.list dt, dl.list dd > .react {
+    padding: .28rem .2rem
+}
+
+dl.list dd.poi-list-item > .react {
+    padding-bottom: .2rem;
+    padding-top: .2rem
+}
+
+dl.list dt {
+    font-size: .34rem;
+    padding-bottom: .2rem;
+    color: #333
+}
+
+dl.list .db {
+    height: .8rem;
+    line-height: .8rem;
+    font-size: .3rem
+}
+
+dl.list dd dl {
+    margin: 0;
+    margin-bottom: -1px;
+    padding-left: .2rem;
+    border: 0
+}
+
+dl.list dd dl > .dd-padding, dl.list dd dl dd > .react, dl.list dd dl > dt {
+    padding-left: 0
+}
+
+dl.list .db > .react {
+    color: #06c1ae;
+    padding: 0 .2rem
+}
+
+dl.list .posi-right-bottom {
+    position: absolute;
+    bottom: .26rem;
+    right: .2rem
+}
+
+dl.list .statusInfo {
+    color: #666;
+    font-size: .24rem
+}
+
+dl.list del {
+    text-decoration: none
+}
+
+dl.list del:before {
+    content: '门市价:'
+}
+
+dl.list-in {
+    margin: 0;
+    border-top: 0
+}
+
+dl.list:first-child {
+    margin: 0;
+    border-top: 0
+}
+
+dl.list dd > .input-weak {
+    width: 100%;
+    display: block
+}
+
+dl.list dd > .btn {
+    margin-top: -.15rem;
+    margin-bottom: -.15rem
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@-webkit-keyframes rotateing-anim {
+    0% {
+        -webkit-transform: rotate(0deg)
+    }
+    100% {
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@-moz-keyframes rotateing-anim {
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes rotateing-anim {
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+
+
+
+
+
+
+.page {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    overflow: hidden;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    -ms-box-align: center;
+    -ms-flex-pack: justify
+}
+
+
+
+.icon-wrapper {
+    height: 3.6rem;
+    -webkit-transform: scale(1)
+}
+
+.list-ico {
+    position: absolute;
+    bottom: .22rem;
+    text-align: center;
+    width: 100%
+}
+
+.list-ico li {
+    display: inline-block;
+    width: .16rem;
+    height: .16rem;
+    border-radius: 50%;
+    background-color: #F0EFED;
+    margin: 0 .15rem
+}
+
+.list-ico li.active {
+    background-color: #06c1ae
+}
+
+.icon-list.page {
+    display: block
+}
+
+.icon-list {
+    height: auto
+}
+
+.icon-list .icon {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 25%;
+    text-align: center
+}
+
+.icon-list .icon > a {
+    padding: .2rem 0
+}
+
+.icon-list .icon-circle {
+    display: block;
+    margin: auto;
+    margin-bottom: .14rem;
+    font-family: cate_icon;
+    width: .8rem;
+    height: .8rem;
+    border-radius: 10rem;
+    text-align: center;
+    line-height: .8rem;
+    font-size: .4rem;
+    color: #fff
+}
+
+.icon-list .icon-desc {
+    text-align: center;
+    font-size: .24rem;
+    color: #666
+}
+
+body .icon-circle {
+    background-color: #f82
+}
+
+body .typeid22, body .typeid163, body .typeid235, body .typeid241, body .typeid242, body .typeid243 {
+    background-color: #F48C78
+}
+
+body .typeid2, body .typeid206, body .typeid149, body .typeid147, body .typeid165 {
+    background-color: #F8B868
+}
+
+body .typeid0, body .typeid5, body .typeid, body .typeid278 {
+    background-color: #45D3BF
+}
+
+body .typeid4, body .typeid78, body .typeid195, body .typeid226, body .typeid162 {
+    background-color: #62C4EA
+}
+
+body .typeid1 {
+    background-color: #f82
+}
+
+body .typeid3 {
+    background-color: #a8dd99
+}
+
+body .typeid20 {
+    background-color: #7788f2
+}
+
+body .typeid99 {
+    background-color: #ea6644
+}

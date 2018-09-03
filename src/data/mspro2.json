@@ -1,0 +1,45 @@
+{
+	"zhprolist":[
+		{
+			"img":"./src/assets/images/food02.jpg",
+			"title":"好哥伦",
+			"des":"单人餐！节假日通用！",
+			"price":"￥80",
+			"delprice":"100",
+			"sale":"已售出300份",
+			"dis":"2.1km",
+			"appraise":"4.5分"
+		},
+		{
+			"img":"./src/assets/images/food02.jpg",
+			"title":"好哥伦",
+			"des":"单人餐！节假日通用！",
+			"price":"￥80",
+			"delprice":"100",
+			"sale":"已售出200份",
+			"dis":"4.1km",
+			"appraise":"2.5分"
+		},
+		{
+			"img":"./src/assets/images/food02.jpg",
+			"title":"好哥伦",
+			"des":"单人餐！节假日通用！",
+			"price":"￥80",
+			"delprice":"100",
+			"sale":"已售出350份",
+			"dis":"3.1km",
+			"appraise":"3.5分"
+		},
+		{
+			"img":"./src/assets/images/food02.jpg",
+			"title":"好哥伦",
+			"des":"单人餐！节假日通用！",
+			"price":"￥80",
+			"delprice":"100",
+			"sale":"已售出100份",
+			"dis":"1.1km",
+			"appraise":"1.5分"
+		}
+	]
+	
+}
